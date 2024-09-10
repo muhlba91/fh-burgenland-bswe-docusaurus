@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.QUAY_TOKEN }}
 
       - name: Build and Push (Pull Request)
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         if: github.ref != 'refs/heads/main'
         with:
           context: .
@@ -39,7 +39,7 @@ jobs:
           push: true
 
       - name: Build and Push (Main Branch)
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         if: github.ref == 'refs/heads/main'
         with:
           context: .
