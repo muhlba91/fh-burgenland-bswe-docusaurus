@@ -1,5 +1,5 @@
 # builder image
-FROM node:18@sha256:ddd173cd94537e155b378342056e0968e8299eb3da9dd5d412d3b7f796ac38c0 as builder
+FROM node:24@sha256:4e87fa2c1aa4a31edfa4092cc50428e86bf129e5bb528e2b3bbc8661e2038339 as builder
 
 WORKDIR /app
 COPY package.json yarn.lock ./
@@ -9,6 +9,6 @@ COPY . .
 RUN yarn build
 
 # final image
-FROM nginx:alpine@sha256:2140dad235c130ac861018a4e13a6bc8aea3a35f3a40e20c1b060d51a7efd250
+FROM nginx:24-alpine@sha256:77f3c4d1f33c17dfa4af4b0add57d86957187873e313c2c37f52831d117645c8
 
 COPY --from=builder /app/build/ /usr/share/nginx/html/
