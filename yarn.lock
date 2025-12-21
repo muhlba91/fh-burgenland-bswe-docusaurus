@@ -2146,7 +2146,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/core@npm:3.9.2, @docusaurus/core@npm:^3.5.2":
+"@docusaurus/core@npm:3.9.2, @docusaurus/core@npm:^3.9.2":
   version: 3.9.2
   resolution: "@docusaurus/core@npm:3.9.2"
   dependencies:
@@ -2259,7 +2259,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/module-type-aliases@npm:3.9.2, @docusaurus/module-type-aliases@npm:^3.5.2":
+"@docusaurus/module-type-aliases@npm:3.9.2, @docusaurus/module-type-aliases@npm:^3.9.2":
   version: 3.9.2
   resolution: "@docusaurus/module-type-aliases@npm:3.9.2"
   dependencies:
@@ -2470,7 +2470,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/preset-classic@npm:^3.5.2":
+"@docusaurus/preset-classic@npm:^3.9.2":
   version: 3.9.2
   resolution: "@docusaurus/preset-classic@npm:3.9.2"
   dependencies:
@@ -2593,7 +2593,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/types@npm:3.9.2, @docusaurus/types@npm:^3.5.2":
+"@docusaurus/types@npm:3.9.2, @docusaurus/types@npm:^3.9.2":
   version: 3.9.2
   resolution: "@docusaurus/types@npm:3.9.2"
   dependencies:
@@ -2881,7 +2881,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:^3.0.0, @mdx-js/react@npm:^3.0.1":
+"@mdx-js/react@npm:^3.0.0, @mdx-js/react@npm:^3.1.1":
   version: 3.1.1
   resolution: "@mdx-js/react@npm:3.1.1"
   dependencies:
@@ -6118,15 +6118,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fh-burgenland-bswe-3-b-docusaurus@workspace:."
   dependencies:
-    "@docusaurus/core": "npm:^3.5.2"
-    "@docusaurus/module-type-aliases": "npm:^3.5.2"
-    "@docusaurus/preset-classic": "npm:^3.5.2"
-    "@docusaurus/types": "npm:^3.5.2"
-    "@mdx-js/react": "npm:^3.0.1"
+    "@docusaurus/core": "npm:^3.9.2"
+    "@docusaurus/module-type-aliases": "npm:^3.9.2"
+    "@docusaurus/preset-classic": "npm:^3.9.2"
+    "@docusaurus/types": "npm:^3.9.2"
+    "@mdx-js/react": "npm:^3.1.1"
     clsx: "npm:^2.1.1"
-    prism-react-renderer: "npm:^2.4.0"
-    react: "npm:^19.0.0"
-    react-dom: "npm:^19.0.0"
+    prism-react-renderer: "npm:^2.4.1"
+    react: "npm:^19.2.3"
+    react-dom: "npm:^19.2.3"
   languageName: unknown
   linkType: soft
 
@@ -10262,7 +10262,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prism-react-renderer@npm:^2.3.0, prism-react-renderer@npm:^2.4.0":
+"prism-react-renderer@npm:^2.3.0, prism-react-renderer@npm:^2.4.1":
   version: 2.4.1
   resolution: "prism-react-renderer@npm:2.4.1"
   dependencies:
@@ -10438,7 +10438,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^19.0.0":
+"react-dom@npm:^19.2.3":
   version: 19.2.3
   resolution: "react-dom@npm:19.2.3"
   dependencies:
@@ -10559,7 +10559,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^19.0.0":
+"react@npm:^19.2.3":
   version: 19.2.3
   resolution: "react@npm:19.2.3"
   checksum: 10c0/094220b3ba3a76c1b668f972ace1dd15509b157aead1b40391d1c8e657e720c201d9719537375eff08f5e0514748c0319063392a6f000e31303aafc4471f1436
