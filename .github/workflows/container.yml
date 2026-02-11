@@ -33,14 +33,14 @@ jobs:
           username: ${{ secrets.QUAY_USERNAME }}
           password: ${{ secrets.QUAY_TOKEN }}
 
-      - uses: docker/build-push-action@ee4ca427a2f43b6a16632044ca514c076267da23 # v6.19.0
+      - uses: docker/build-push-action@601a80b39c9405e50806ae38af30926f9d957c47 # v6.19.1
         if: github.ref != 'refs/heads/main'
         with:
           context: .
           tags: quay.io/muhlba91/fh-burgenland-bswe-docusaurus:${{ github.event.pull_request.head.sha }}
           push: true
 
-      - uses: docker/build-push-action@ee4ca427a2f43b6a16632044ca514c076267da23 # v6.19.0
+      - uses: docker/build-push-action@601a80b39c9405e50806ae38af30926f9d957c47 # v6.19.1
         if: github.ref == 'refs/heads/main'
         with:
           context: .
