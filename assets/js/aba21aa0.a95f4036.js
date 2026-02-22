@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhochschule_burgenland_docusaurus_demo=self.webpackChunkhochschule_burgenland_docusaurus_demo||[]).push([[5742],{7093:u=>{u.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

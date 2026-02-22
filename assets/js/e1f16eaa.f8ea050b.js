@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhochschule_burgenland_docusaurus_demo=self.webpackChunkhochschule_burgenland_docusaurus_demo||[]).push([[5695],{9308:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/hochschule-burgenland-docusaurus-demo/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

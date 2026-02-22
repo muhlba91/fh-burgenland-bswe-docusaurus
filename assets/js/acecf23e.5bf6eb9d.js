@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhochschule_burgenland_docusaurus_demo=self.webpackChunkhochschule_burgenland_docusaurus_demo||[]).push([[1903],{1912:u=>{u.exports=JSON.parse('{"blogBasePath":"/hochschule-burgenland-docusaurus-demo/blog","blogTitle":"Blog","authorsListPath":"/hochschule-burgenland-docusaurus-demo/blog/authors"}')}}]);
