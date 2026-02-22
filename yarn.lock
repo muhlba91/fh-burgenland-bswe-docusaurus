@@ -6114,22 +6114,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fh-burgenland-bswe-3-b-docusaurus@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "fh-burgenland-bswe-3-b-docusaurus@workspace:."
-  dependencies:
-    "@docusaurus/core": "npm:^3.9.2"
-    "@docusaurus/module-type-aliases": "npm:^3.9.2"
-    "@docusaurus/preset-classic": "npm:^3.9.2"
-    "@docusaurus/types": "npm:^3.9.2"
-    "@mdx-js/react": "npm:^3.1.1"
-    clsx: "npm:^2.1.1"
-    prism-react-renderer: "npm:^2.4.1"
-    react: "npm:^19.2.3"
-    react-dom: "npm:^19.2.3"
-  languageName: unknown
-  linkType: soft
-
 "figures@npm:^3.2.0":
   version: 3.2.0
   resolution: "figures@npm:3.2.0"
@@ -6716,6 +6700,22 @@ __metadata:
   checksum: 10c0/35377694e4f10f2cf056a9cb1a8ee083e04e4b4717a63baeee4afd565658a62c7e73700bf9e82aa53dbe1ec94e0a25a83c080d63bad8ee6b274a98d2fbc5ed4c
   languageName: node
   linkType: hard
+
+"hochschule-burgenland-docusaurus-demo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "hochschule-burgenland-docusaurus-demo@workspace:."
+  dependencies:
+    "@docusaurus/core": "npm:^3.9.2"
+    "@docusaurus/module-type-aliases": "npm:^3.9.2"
+    "@docusaurus/preset-classic": "npm:^3.9.2"
+    "@docusaurus/types": "npm:^3.9.2"
+    "@mdx-js/react": "npm:^3.1.1"
+    clsx: "npm:^2.1.1"
+    prism-react-renderer: "npm:^2.4.1"
+    react: "npm:^19.2.3"
+    react-dom: "npm:^19.2.3"
+  languageName: unknown
+  linkType: soft
 
 "hoist-non-react-statics@npm:^3.1.0":
   version: 3.3.2

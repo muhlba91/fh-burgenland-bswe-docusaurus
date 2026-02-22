@@ -14,12 +14,12 @@ const config = {
   url: 'https://muhlba91.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/fh-burgenland-bswe-docusaurus/',
+  baseUrl: '/hochschule-burgenland-docusaurus-demo/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'muhlba91', // Usually your GitHub org/user name.
-  projectName: 'fh-burgenland-bswe-docusaurus', // Usually your repo name.
+  projectName: 'hochschule-burgenland-docusaurus-demo', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -80,7 +80,7 @@ const config = {
           { to: '/helloReact', label: 'Hello React', position: 'left' },
           { to: '/helloMarkdown', label: 'Hello Markdown', position: 'left' },
           {
-            href: 'https://github.com/muhlba91/fh-burgenland-bswe-docusaurus.git',
+            href: 'https://github.com/muhlba91/hochschule-burgenland-docusaurus-demo.git',
             label: 'GitHub',
             position: 'right',
           },
